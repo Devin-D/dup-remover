@@ -1,5 +1,5 @@
 # dup-remover
-Current work in progress. Version 1.0 is still in beta. full functionality for single end data currently. Working on paired end ( this script will work on paired end data however it does not yet check for correct pairs.) Check back for updates. 
+ Version 1.0. A python script for removal of PCR duplicates from sequence data. full functionality for single end and paired end data. will adjust allignment start postion based on softclipping amount. checks for unique mapping with options to keep reads with highest mapq score when duplicates encountered. accepts randomers, known umis (wih option to check) and dual indicies.
 
 FOR INFO ON RUNNING
-./Dup_Remover.py
+./Dup_Remover.py -h
